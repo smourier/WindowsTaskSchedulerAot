@@ -21,7 +21,7 @@
   },
   // types that we want to include or exclude
   "TypeInputs": [
-    "*"
+    "Windows.Win32.System.TaskScheduler"
   ],
   // members (method, fields) we want to include or exclude
   "MemberInputs": [
