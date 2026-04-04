@@ -417,3 +417,5 @@ FodyWeavers.xsd
 *.msm
 *.msp
 /WindowsTaskSchedulerAot.InteroBuilder.Cli/Win32Metadata.cs
+/c.bat
+/cr.bat
