@@ -1,0 +1,29 @@
+﻿{
+  // customized generation for WebView2
+  "BuilderTypeFilePath": "WindowsTaskSchedulerAot.InteroBuilder.Cli.dll",
+  "BuilderTypeName": "WindowsTaskSchedulerAot.InteroBuilder.Cli.Builder, WindowsTaskSchedulerAot.InteroBuilder.Cli",
+  "OutputEncoding": "UTF-8",
+  "Generation": {
+    // unified namespace configuration
+    "Unified": {
+      "Namespace": "WindowsTaskScheduler"
+    }
+  },
+  // per-generator configuration
+  "Generator": {
+    "CSharp": {
+      "GenerateTypeKeywords": true,
+
+      // types that are supported by WebView2 project for constant generation (+ standard ones)
+      "SupportedConstantTypes": [
+      ]
+    }
+  },
+  // types that we want to include or exclude
+  "TypeInputs": [
+    "*"
+  ],
+  // members (method, fields) we want to include or exclude
+  "MemberInputs": [
+  ]
+}

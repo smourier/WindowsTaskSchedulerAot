@@ -1,1 +1,4 @@
-<Solution />
+<Solution>
+  <Project Path="Win32InteropBuilder/Win32InteropBuilder/Win32InteropBuilder.csproj" />
+  <Project Path="WindowsTaskSchedulerAot.InteroBuilder.Cli/WindowsTaskSchedulerAot.InteroBuilder.Cli.csproj" Id="b19f3868-6fdf-482f-a8fa-542fe8d72349" />
+</Solution>
