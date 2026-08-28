@@ -12,13 +12,11 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<Reference Include="DirectN">
-			<HintPath>..\WindowsTaskScheduler\External\DirectN.dll</HintPath>
-		</Reference>
+		<PackageReference Include="DirectNAot" Version="1.6.6" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Windows.SDK.Win32Metadata" Version="71.0.14-preview" GeneratePathProperty="true" />
+		<PackageReference Include="Microsoft.Windows.SDK.Win32Metadata" Version="71.0.20-preview" GeneratePathProperty="true" />
 	</ItemGroup>
 
 	<ItemGroup>
