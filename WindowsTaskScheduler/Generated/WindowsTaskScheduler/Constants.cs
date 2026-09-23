@@ -3,9 +3,11 @@ namespace WindowsTaskScheduler;
 
 public static partial class Constants
 {
-    public static readonly Guid CLSID_CTask = new("148bd520-a2ab-11ce-b11f-00aa00530503");
+    public static Guid CLSID_CTask => new(0x148bd520, 0xa2ab, 0x11ce, 0xb1, 0x1f, 0x00, 0xaa, 0x00, 0x53, 0x05, 0x03);
     
-    public static readonly Guid CLSID_CTaskScheduler = new("148bd52a-a2ab-11ce-b11f-00aa00530503");
+    public static Guid CLSID_CTaskScheduler => new(0x148bd52a, 0xa2ab, 0x11ce, 0xb1, 0x1f, 0x00, 0xaa, 0x00, 0x53, 0x05, 0x03);
+    
+    public static Guid LIBID_TaskScheduler => new(0x0f87369f, 0xa4e5, 0x4cfc, 0xbd, 0x3e, 0x73, 0xe6, 0x15, 0x45, 0x72, 0xdd);
     
     public const uint TASK_APRIL = 8;
     
@@ -89,9 +91,9 @@ public static partial class Constants
     
     public const uint TASK_WEDNESDAY = 8;
     
-    public static readonly Guid TaskHandlerPS = new("f2a69db7-da2c-4352-9066-86fee6dacac9");
+    public static Guid TaskHandlerPS => new(0xf2a69db7, 0xda2c, 0x4352, 0x90, 0x66, 0x86, 0xfe, 0xe6, 0xda, 0xca, 0xc9);
     
-    public static readonly Guid TaskHandlerStatusPS = new("9f15266d-d7ba-48f0-93c1-e6895f6fe5ac");
+    public static Guid TaskHandlerStatusPS => new(0x9f15266d, 0xd7ba, 0x48f0, 0x93, 0xc1, 0xe6, 0x89, 0x5f, 0x6f, 0xe5, 0xac);
     
-    public static readonly Guid TaskScheduler = new("0f87369f-a4e5-4cfc-bd3e-73e6154572dd");
+    public static Guid TaskScheduler => new(0x0f87369f, 0xa4e5, 0x4cfc, 0xbd, 0x3e, 0x73, 0xe6, 0x15, 0x45, 0x72, 0xdd);
 }
